@@ -59,6 +59,3 @@ Bash
 
     A API estará disponível em http://localhost:8081/tarefas-api.
 
-Autor
-
-André - [Coloque seu nome de usuário do GitHub aqui]
