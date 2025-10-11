@@ -58,4 +58,28 @@ Bash
     ./mvnw.cmd spring-boot:run
 
     A API estará disponível em http://localhost:8081/tarefas-api.
+    
+Como Testar a API
+
+Como esta é uma API RESTful, ela não possui uma interface gráfica. Para interagir com os endpoints e testar as funcionalidades, é necessário utilizar um cliente de API como o Postman ou Insomnia.
+
+Exemplo: Criando uma Nova Tarefa
+
+    Abra o Postman e crie uma nova requisição.
+
+    Selecione o método POST.
+
+    Insira a URL: http://localhost:8081/tarefas-api
+
+    Vá para a aba Body, selecione a opção raw e o formato JSON.
+
+    Cole o seguinte JSON no corpo da requisição:
+    JSON
+
+{
+    "descricao": "Testar a API com Postman",
+    "prioridade": 1
+}
+
+Clique em Send. Você deverá receber uma resposta 201 Created.
 
