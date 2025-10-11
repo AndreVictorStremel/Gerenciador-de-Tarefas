@@ -1,3 +1,5 @@
+Autores : André Victor Stremel, Lais Canesim Betiol, Joice Bueno Correia da Rosa
+
 Gerenciador de Tarefas - API REST
 
 Descrição do Projeto
