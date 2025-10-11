@@ -4,7 +4,7 @@ Descrição do Projeto
 
 API REST para um sistema de gerenciamento de tarefas (To-Do List), desenvolvida como parte de um projeto acadêmico. A aplicação permite criar, ler, atualizar, deletar e filtrar tarefas, seguindo os princípios de arquitetura RESTful.
 
-Tecnologias Utilizadas:
+Tecnologias Utilizadas
 
 Linguagem: Java 17
 Framework: Spring Boot 3
@@ -28,34 +28,37 @@ DELETE	/{id}	Deleta uma tarefa específica.
 
 Pré-requisitos para Execução
 
-  Java JDK 17 ou superior
-  Maven
-  PostgreSQL instalado e rodando
-  Git
+Java JDK 17 ou superior
+Maven
+PostgreSQL instalado e rodando
+Git
 
 Como Executar o Projeto
 
-Clone o repositório: 
-  Bash
+    Clone o repositório:
+    Bash
 
-  git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
-  cd gerenciador-de-tarefas
+git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+cd gerenciador-de-tarefas
 
 Configure o Banco de Dados:
 
-  Crie um banco de dados no PostgreSQL chamado tarefasdb.
+    Crie um banco de dados no PostgreSQL chamado tarefasdb.
 
-  Abra o arquivo src/main/resources/application.properties.
+    Abra o arquivo src/main/resources/application.properties.
 
-  Ajuste as propriedades spring.datasource.username e spring.datasource.password com as suas credenciais do PostgreSQL.
+    Ajuste as propriedades spring.datasource.username e spring.datasource.password com as suas credenciais do PostgreSQL.
 
 Execute a aplicação:
 
-Abra um terminal na raiz do projeto e execute o comando:
+    Abra um terminal na raiz do projeto e execute o comando:
 
-  Bash
+Bash
 
-  ./mvnw.cmd spring-boot:run
+    ./mvnw.cmd spring-boot:run
 
- A API estará disponível em http://localhost:8081/tarefas-api.
+    A API estará disponível em http://localhost:8081/tarefas-api.
 
+Autor
+
+André - [Coloque seu nome de usuário do GitHub aqui]
