@@ -40,7 +40,7 @@ Como Executar o Projeto
     Clone o repositório:
     Bash
 
-git clone https://github.com/seu-usuario/gerenciador-de-tarefas.git
+git clone https://github.com/AndreVictorStremel/gerenciador-de-tarefas.git
 cd gerenciador-de-tarefas
 
 Configure o Banco de Dados:
