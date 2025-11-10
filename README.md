@@ -85,3 +85,6 @@ Exemplo: Criando uma Nova Tarefa
 
 Clique em Send. Você deverá receber uma resposta 201 Created.
 
+EXEMPLO DE TESTE GET FUNCIONANDO : 
+
+<img width="1379" height="803" alt="image" src="https://github.com/user-attachments/assets/d511942d-fe97-4b66-80d2-9b862925d709" />
